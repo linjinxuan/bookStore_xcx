@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",    
+    "pages/sort/sort",       
+    "pages/cart/cart",
+    "pages/mine/mine",
+    "pages/detail/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "MY-BOOK-STORE",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#e1e1e1",
+    "selectedColor": "#ffff00",
+    "backgroundColor": "#000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Home",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_sel.png"
+      },
+      {
+        "pagePath": "pages/sort/sort",
+        "text": "Sort",
+        "iconPath": "images/sort.png",
+        "selectedIconPath": "images/sort_sel.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "Cart",
+        "iconPath": "images/cart.png",
+        "selectedIconPath": "images/cart_sel.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "Mine",
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/mine_sel.png"
+      }
+    ]
+  },
+  "cloud": true
+}

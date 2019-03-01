@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<scroll-view 
+class="scroll-view-ctn"
+scroll-y
+enable-back-to-top>
+<swiper
+  indicator-dots="false"
+  autoplay
+  interval="5000"
+  duration="1000">
+  <block wx:for="{{imgUrls}}"  wx:key="*this">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class='pop-ctn'>
+<text class='galaxy-title'>畅销书籍</text>
+<view  class='card-galaxy'>
+  <card 
+  wx:for="{{popBooks}}" 
+  wx:key="{{item._id}}"
+  avatar="{{item.avatar}}"
+  name="{{item.BookName}}"
+  id="{{item._id}}"
+  class="card-item-ctn"></card>
+</view>
+
+</view>
+  
+</scroll-view>

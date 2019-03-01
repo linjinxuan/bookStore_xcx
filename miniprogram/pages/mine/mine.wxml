@@ -1,0 +1,5 @@
+<!--miniprogram/pages/mine/mine.wxml-->
+<view class='mine-ctn'>
+<image src='{{avatar}}' class='avatar'></image>
+<text class='nickname'>{{nickname}}</text>
+</view>

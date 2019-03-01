@@ -1,0 +1,5 @@
+<!--components/bookCard/index.wxml-->
+<view class="card-ctn" bindtap="linkToDetail">
+    <image src="{{avatar}}" class='card-img'></image>
+    <text class='card-name'>书名：{{name}}</text>
+  </view>

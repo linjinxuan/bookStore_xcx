@@ -1,0 +1,46 @@
+/* miniprogram/pages/detail/index.wxss */
+.detail-view {
+  text-align: center;
+}
+.book-img {
+  max-width: 60%;
+  max-height: 480rpx;
+  margin: auto;
+}
+
+.info-ctn {
+  padding: 20rpx;
+  text-align: left;
+  font-size: 32rpx;
+}
+
+.book-name {  
+  margin-right: 20rpx;
+}
+
+.book-author {
+  font-size: 28rpx;
+  color: #999;
+}
+
+.publish-time,
+.publish-desc,
+.price {
+  display: block;
+}
+
+.btn-ctn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20rpx;
+}
+
+.cart-btn {
+  width: 200rpx;
+  background: red;
+  font-size: 24rpx;
+  color: #fff;
+  margin: 0;
+}
+

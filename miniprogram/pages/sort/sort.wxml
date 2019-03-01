@@ -1,0 +1,15 @@
+<!--miniprogram/pages/sort/sort.wxml-->
+<view class='sort-ctn'>
+<sideBar list="{{list}}" bind:changeTab="changeTab" class="side-bar-ctn"></sideBar>
+<view class='card-ctn'>
+<view class='inner-ctn'>
+<card 
+  wx:for="{{curList}}" 
+  wx:key="{{item._id}}"
+  avatar="{{item.avatar}}"
+  name="{{item.BookName}}"
+  id="{{item._id}}"
+  class="card-item-ctn"></card>
+</view>
+</view>
+</view>

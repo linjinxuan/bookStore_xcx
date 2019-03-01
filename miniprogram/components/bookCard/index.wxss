@@ -1,0 +1,18 @@
+/* components/bookCard/index.wxss */
+.card-ctn {
+  text-align: center;
+  width: 100%;
+}
+
+.card-img {
+  width: 80%;
+  height: 250rpx;
+  display: block;
+  margin: auto;
+}
+
+.card-name {
+  font-size: 24rpx;
+  margin: 0 2.5rpx;
+  color: #999;
+}

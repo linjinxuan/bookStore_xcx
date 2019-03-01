@@ -1,0 +1,16 @@
+<!--miniprogram/pages/cart/cart.wxml-->
+<scroll-view 
+class="scroll-view-ctn"
+scroll-y
+enable-back-to-top>
+<text>购物车列表</text>
+<view  class='card-galaxy'>
+  <card 
+  wx:for="{{cart}}" 
+  wx:key="{{item._id}}"
+  avatar="{{item.avatar}}"
+  name="{{item.BookName}}"
+  id="{{item._id}}"
+  class="card-item-ctn"></card>
+</view>
+</scroll-view>

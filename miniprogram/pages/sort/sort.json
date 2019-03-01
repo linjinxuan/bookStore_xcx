@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "sideBar": "/components/sideBar/index",
+    "card": "/components/bookCard/index"
+  }
+}

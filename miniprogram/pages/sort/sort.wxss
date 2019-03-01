@@ -1,0 +1,22 @@
+/* miniprogram/pages/sort/sort.wxss */
+.sort-ctn {
+  position: relative;
+}
+
+.card-ctn {
+  width: 80%;
+  height: 100vh;
+  position: absolute;
+  left: 20%;
+  overflow: scroll;
+}
+
+.card-item-ctn {
+  margin: 20rpx;
+}
+
+.side-bar-ctn {
+  height: 100vh;
+  width: 20%;
+  position: absolute;
+}

@@ -1,0 +1,4 @@
+<!--components/sideBar/sideBar.wxml-->
+<view class='side-bar'>
+  <text wx:for="{{list}}" wx:key="{{index}}" class="side-bar-item {{status===item?'side-bar-item-sel':''}}" bindtap='tap' data-name="{{item}}">{{item}}</text>
+</view>

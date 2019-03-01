@@ -1,0 +1,20 @@
+<!--miniprogram/pages/detail/index.wxml-->
+<view class='detail-view'>
+  <image src="{{info.avatar}}" class='book-img'></image>
+  <view  class='info-ctn'>
+  <view>
+  <text class='book-name'>{{info.BookName}}</text>
+  <text class='book-author'>{{info.author}} 著</text>
+  </view> 
+  <text class='publish-time'>出版时间： {{info.PublishDate}}</text>
+  
+  <text class='publish-desc'>故事详情： {{info.description}}</text>
+  <text class='price'>单价： {{info.price}} 元</text>
+  <view>
+  <view class='btn-ctn'>
+  <button class='cart-btn'  bindtap="cart" disabled="{{!status.canCart}}">Add Cart</button>
+  <text class='remain'>剩余 {{info.remaining}}</text>
+  </view>  
+  </view>
+  </view>
+</view>

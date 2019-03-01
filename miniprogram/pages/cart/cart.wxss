@@ -1,0 +1,18 @@
+/* miniprogram/pages/cart/cart.wxss */
+.scroll-view-ctn {
+  height: 800px;
+  -webkit-overflow-scrolling: touch
+}
+
+.card-galaxy {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20rpx;
+  padding: 0 20rpx;
+}
+
+.card-item-ctn {
+  width: 25%;
+  margin-bottom: 20rpx;
+}
